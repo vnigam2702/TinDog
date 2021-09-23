@@ -1,0 +1,225 @@
+body{
+  z-index: 2;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+}
+
+h3{
+   font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+#title{
+  color: #ffffff;
+  height: 700px;
+}
+
+#title .container-fluid{
+  padding-top: 3%;
+}
+
+.firsth1{
+  font-family: 'Montserrat', sans-serif;
+  font-size : 3rem;
+  line-height: 1.5;
+  color: #ffffff;
+  text-align: left;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+  padding: right: 0;
+  margin-left: 0;
+}
+
+ .mybrand{
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  z-index: 4;
+}
+
+.download{
+  margin: 5% 3% 5% 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+}
+
+.container-fluid{
+  padding: 7% 15%;
+  position: relative;
+  z-index: 4;
+}
+
+/* sections*/
+.color-section{
+  color: #ffffff;
+  background-color: #ff4c68;
+}
+
+.white-section{
+  background-color: #ffffff;
+}
+
+.dogimage{
+  width: 450px;
+  border-radius:20%;
+  opacity: 90%;
+  border: solid 20px #595260;
+  z-index: 4;
+}
+
+
+
+@keyframes mymove {
+  50% {transform: rotate(360deg);}
+}
+/* circles */
+
+.circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #FFA0A0;
+  position: absolute;
+  z-index: 3;
+}
+.circle1{
+  bottom: 15%;
+  left: 20%
+}
+
+.circle2{
+  bottom: 80%;
+  left: 5%;
+}
+
+  .circle3{
+    bottom: 90%;
+    top: 10%;
+    left: 40%;
+  }
+
+    .circle4{
+      bottom: 84%;
+      left: 80%;
+    }
+
+    .circle5{
+      bottom: 90%;
+      top: 100%;
+      left: 80%;
+    }
+
+    .circle6{
+      bottom: 20%;
+      left: -10%
+    }
+
+   .fas{
+      color: #F8485E;
+      padding-bottom: 10px;
+    }
+
+    .fas:hover{
+      color: #D83A56;
+    }
+
+    /* features-section */
+    #features{
+      padding: 7% 15%;
+      background-color: #ffffff;
+      position: relative;
+      z-index: 5;
+    }
+
+    .feature-box{
+      padding: 5%;
+    }
+
+
+
+    /* testimonial section */
+    .testimonial-heading{
+      font-size : 3rem;
+      line-height: 1.5;
+    }
+
+    #testimonials{
+      padding: 7% 15%;
+      background-color: #ef8172;
+      color: #ffffff;
+    }
+
+    .testimonial-image{
+      border-radius: 100%;
+      width: 20%;
+      margin:20px;
+    }
+
+    #press{
+        background-color: #ef8172;
+        padding-bottom: 3%;
+    }
+
+    .press-logo{
+      width: 15%;
+      margin: 20px 20px 50px;
+    }
+
+    /* pricing section */
+  .pricing-heading{
+     font-size : 3rem;
+     line-height: 1.5;
+  }
+
+
+    #pricing{
+      padding: 100px;
+    }
+
+    .pricing-col{
+      padding: 3% 2%;
+
+    }
+
+   .footer-heading{
+     font-family: 'Montserrat';
+     font-size : 3.0rem;
+     line-height: 1.5;
+   }
+
+   .btn1footer{
+      margin-right: 10px;
+    }
+
+    .btn2footer{
+        margin-left: 10px;
+    }
+
+    .iconfooter{
+      margin: 20px 10px;
+    }
+
+    /* media queries */
+    @media (max-width: 1028px){
+      #title{
+        text-align: center;
+      }
+      .dogimage{
+        position: static;
+      }
+    }
